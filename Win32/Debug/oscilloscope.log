@@ -1,0 +1,53 @@
+﻿生成启动时间为 5/27/2013 3:35:33 PM。
+     1>项目“E:\yunio\oscilloscope\oscilloscope.vcxproj”在节点 2 上(build 个目标)。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(298,5): warning MSB8004: Intermediate 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Intermediate 目录。
+     1>InitializeBuildStatus:
+         正在创建“Win32\Debug\oscilloscope.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Moc'ing knob.h...
+         Moc'ing mainwindow.h...
+         Moc'ing plot.h...
+         Moc'ing samplingthread.h...
+         Moc'ing wheelbox.h...
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\Qt\4.8.4\include\QtCore /IE:\Qt\4.8.4\include\QtGui /IE:\Qt\4.8.4\include\QtOpenGL /IE:\Qt\4.8.4\include\QtSvg /IE:\Qt\4.8.4\include /Iqwtinc /IE:\Qt\4.8.4\include\ActiveQt /Idebug /I..\..\Qt\4.8.4\mkspecs\default /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QWT_DLL /D QT_DLL /D QT_SVG_LIB /D QT_OPENGL_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D QT_HAVE_MMX /D QT_HAVE_3DNOW /D QT_HAVE_SSE /D QT_HAVE_MMXEXT /D QT_HAVE_SSE2 /D QT_THREAD_SUPPORT /Gm- /EHsc /MDd /GS- /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt curvedata.cpp Debug\moc_knob.cpp Debug\moc_mainwindow.cpp Debug\moc_plot.cpp Debug\moc_samplingthread.cpp Debug\moc_wheelbox.cpp knob.cpp main.cpp mainwindow.cpp plot.cpp samplingthread.cpp signaldata.cpp wheelbox.cpp -Zm200 -w34100 -w34189 
+         curvedata.cpp
+         moc_knob.cpp
+         moc_mainwindow.cpp
+         moc_plot.cpp
+         moc_samplingthread.cpp
+         moc_wheelbox.cpp
+         knob.cpp
+         main.cpp
+         mainwindow.cpp
+         plot.cpp
+         samplingthread.cpp
+         signaldata.cpp
+         wheelbox.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\\oscilloscope.exe" /NOLOGO /LIBPATH:E:\Qt\4.8.4\lib /LIBPATH:e:\Qt\4.8.4\lib /LIBPATH:E:/yunio/oscilloscope/qwtlib/ glu32.lib opengl32.lib gdi32.lib user32.lib E:\Qt\4.8.4\lib\qtmaind.lib E:/yunio/oscilloscope/qwtlib/\qwtd.lib E:\Qt\4.8.4\lib\QtSvgd4.lib E:\Qt\4.8.4\lib\QtOpenGLd4.lib E:\Qt\4.8.4\lib\QtGuid4.lib E:\Qt\4.8.4\lib\QtCored4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\oscilloscope.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\yunio\oscilloscope\bin\oscilloscope.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Win32\Debug\curvedata.obj
+         Win32\Debug\moc_knob.obj
+         Win32\Debug\moc_mainwindow.obj
+         Win32\Debug\moc_plot.obj
+         Win32\Debug\moc_samplingthread.obj
+         Win32\Debug\moc_wheelbox.obj
+         Win32\Debug\knob.obj
+         Win32\Debug\main.obj
+         Win32\Debug\mainwindow.obj
+         Win32\Debug\plot.obj
+         Win32\Debug\samplingthread.obj
+         Win32\Debug\signaldata.obj
+         Win32\Debug\wheelbox.obj "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" 
+         LINK : 没有找到 bin\\oscilloscope.exe 或上一个增量链接没有生成它；正在执行完全链接
+         oscilloscope.vcxproj -> E:\yunio\oscilloscope\bin\oscilloscope.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"bin\\oscilloscope.exe;#1" /manifest Win32\Debug\oscilloscope.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Win32\Debug\oscilloscope.unsuccessfulbuild”。
+         正在对“Win32\Debug\oscilloscope.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\yunio\oscilloscope\oscilloscope.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:14.20
