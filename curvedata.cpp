@@ -1,8 +1,7 @@
 #include "curvedata.h"
 #include "signaldata.h"
 
-const SignalData &CurveData::values() const
-{
+const SignalData &CurveData::values() const {
     return SignalData::instance();
 }
 

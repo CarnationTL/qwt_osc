@@ -90,8 +90,16 @@ SOURCES = \
 
 
 
+
+
+
 win32:CONFIG(release, debug|release): LIBS += -L$$PWD/qwtlib/ -lqwt
 else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/qwtlib/ -lqwtd
 
 INCLUDEPATH += $$PWD/qwtinc
 DEPENDPATH += $$PWD/qwtlib
+
+unix:!macx: LIBS += -L$$PWD/../../../../usr/local/qwt-6.1.0-rc3/lib/ -lqwt
+
+INCLUDEPATH += $$PWD/../../../../usr/local/qwt-6.1.0-rc3/include
+DEPENDPATH += $$PWD/../../../../usr/local/qwt-6.1.0-rc3/include
